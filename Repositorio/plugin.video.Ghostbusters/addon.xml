@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Ghostbusters"
        name="[B][LOWERCASE][CAPITALIZE][COLOR white]Ghostbusters[/CAPITALIZE][/LOWERCASE][/B][/COLOR]"
-       version="0.1.0"
+       version="1.0.1"
        provider-name="Ghostbusters">
  <requires>
     <import addon="xbmc.python" version="2.1.0"/>
