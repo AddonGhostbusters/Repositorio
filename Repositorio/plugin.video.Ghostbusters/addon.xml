@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.Ghostbusters"
        name="[B][LOWERCASE][CAPITALIZE][COLOR white]Ghostbusters[/CAPITALIZE][/LOWERCASE][/B][/COLOR]"
        version="0.1.0"
@@ -20,14 +19,14 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-
+  
  <extension point="xbmc.addon.repository" name="Repositorio Ghostbusters">
         <info>https://raw.githubusercontent.com/AddonGhostbusters/Repositorio/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/AddonGhostbusters/Repositorio/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/AddonGhostbusters/Repositorio/master/Repositorio/</datadir>
     </extension>
-
-
+	
+  
 
 
   <extension point="xbmc.addon.metadata">
@@ -40,24 +39,3 @@
     </assets>
   </extension>
 </addon>
-
-<addon id="repository.Ghostbusters" name="[B][LOWERCASE][CAPITALIZE][COLOR white]Repositorio Ghostbusters[/CAPITALIZE][/LOWERCASE][/B][/COLOR]" version="0.1.0" provider-name="Ghostbusters">
-
- <extension point="xbmc.addon.repository" name="Repositorio Ghostbusters">
-        <info>https://raw.githubusercontent.com/AddonGhostbusters/Repositorio/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/AddonGhostbusters/Repositorio/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/AddonGhostbusters/Repositorio/master/Repositorio/</datadir>
-    </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>¿A que addon vas a llamar?...Ghostbusters</summary>
-    <description>Addon Ghostbusters no contiene ningun enlace propio todos los enlaces en su inetrior estan recopilados de paginas web al alcance de todos los usuarios este addon es totalmente gratuito</description>
-    <platform>all</platform>
-	<assets>
-        <icon>icon.gif</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-</addons>
